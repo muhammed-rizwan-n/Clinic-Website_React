@@ -1,0 +1,11 @@
+.snowflake {
+  position: absolute;
+  top: -10px;
+  width: 7px;
+  height: 7px;
+  background: rgba(255, 255, 255, 0.8);
+  border-radius: 50%;
+  animation-name: fall;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
