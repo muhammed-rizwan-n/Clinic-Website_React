@@ -2,7 +2,7 @@
   "name": "myapp",
   "version": "0.1.0",
   "private": false,
-  "homepage": "https://github.com/muhammed-rizwan-n/Clinic-Website_React",
+  "homepage": "https://muhammed-rizwan-n.github.io/Clinic-Website_React",
   "dependencies": {
     "@fullpage/react-fullpage": "^0.1.48",
     "@testing-library/dom": "^10.4.0",
@@ -23,6 +23,8 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -b main -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
