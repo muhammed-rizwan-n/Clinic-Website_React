@@ -15,7 +15,7 @@ export default function Navbar() {
             src={zayra_dental}
             alt="Clinic Logo"
             className="navbar-logo"
-            style={{width: "200px", position:"static", left:"0px"}}
+            style={{width: "100px"}}
           />
         </Link>
 
